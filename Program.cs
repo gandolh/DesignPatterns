@@ -11,10 +11,16 @@
 #endregion
 
 #region abstract factory pattern
-using DesignPatterns.AbstractFactory;
+//using DesignPatterns.AbstractFactory;
+//// the abstract factory is the gui factory.
+//AbstractFactoryMain abstractFactoryMain = new AbstractFactoryMain(OsType.Mac);
+//abstractFactoryMain.Main();
+#endregion
 
+#region builder pattern
+using DesignPatterns.Builder;
 
-// the abstract factory is the gui factory.
-AbstractFactoryMain abstractFactoryMain = new AbstractFactoryMain(OsType.Mac);
-abstractFactoryMain.Main();
+BuilderMain builderMain = new BuilderMain();
+builderMain.Main();
+
 #endregion
