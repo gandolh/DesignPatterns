@@ -51,8 +51,16 @@
 
 #endregion
 #region Bridge pattern
-using DesignPatterns.Bridge;
+//using DesignPatterns.Bridge;
 
-BridgeMain bridgeMain = new BridgeMain();
-bridgeMain.Main();
+//BridgeMain bridgeMain = new BridgeMain();
+//bridgeMain.Main();
+#endregion
+
+#region Composite pattern
+using DesignPatterns.Composite;
+
+CompositeMain compositeMain = new CompositeMain();
+compositeMain.Main();
+
 #endregion
