@@ -70,8 +70,16 @@
 //decoratorMain.Main();
 #endregion
 #region Facade Pattern
-using DesignPatterns.Facade;
+//using DesignPatterns.Facade;
 
-FacadeMain main = new FacadeMain();
-main.Main();
+//FacadeMain main = new FacadeMain();
+//main.Main();
+#endregion
+
+#region Flyweight pattern
+using DesignPatterns.Flyweight;
+
+FlyweightMain flyweightMain = new FlyweightMain();
+flyweightMain.Main();
+
 #endregion
