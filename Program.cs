@@ -56,11 +56,16 @@
 //BridgeMain bridgeMain = new BridgeMain();
 //bridgeMain.Main();
 #endregion
-
 #region Composite pattern
-using DesignPatterns.Composite;
+//using DesignPatterns.Composite;
 
-CompositeMain compositeMain = new CompositeMain();
-compositeMain.Main();
+//CompositeMain compositeMain = new CompositeMain();
+//compositeMain.Main();
 
+#endregion
+#region Decorator pattern
+using DesignPatterns.Decorator;
+
+DecoratorMain decoratorMain = new DecoratorMain();
+decoratorMain.Main();
 #endregion
