@@ -38,7 +38,15 @@
 #endregion
 
 #region Singleton pattern
-using DesignPatterns.Singleton;
-SingletonMain singletonMain = new SingletonMain();
-singletonMain.Main();
+//using DesignPatterns.Singleton;
+//SingletonMain singletonMain = new SingletonMain();
+//singletonMain.Main();
+#endregion
+
+#region Adapter pattern
+using DesignPatterns.Adapter;
+
+AdapterMain adapterMain = new AdapterMain();
+adapterMain.Main();
+
 #endregion
