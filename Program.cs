@@ -44,9 +44,15 @@
 #endregion
 
 #region Adapter pattern
-using DesignPatterns.Adapter;
+//using DesignPatterns.Adapter;
 
-AdapterMain adapterMain = new AdapterMain();
-adapterMain.Main();
+//AdapterMain adapterMain = new AdapterMain();
+//adapterMain.Main();
 
+#endregion
+#region Bridge pattern
+using DesignPatterns.Bridge;
+
+BridgeMain bridgeMain = new BridgeMain();
+bridgeMain.Main();
 #endregion
