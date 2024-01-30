@@ -64,8 +64,14 @@
 
 #endregion
 #region Decorator pattern
-using DesignPatterns.Decorator;
+//using DesignPatterns.Decorator;
 
-DecoratorMain decoratorMain = new DecoratorMain();
-decoratorMain.Main();
+//DecoratorMain decoratorMain = new DecoratorMain();
+//decoratorMain.Main();
+#endregion
+#region Facade Pattern
+using DesignPatterns.Facade;
+
+FacadeMain main = new FacadeMain();
+main.Main();
 #endregion
