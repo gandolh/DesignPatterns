@@ -77,9 +77,15 @@
 #endregion
 
 #region Flyweight pattern
-using DesignPatterns.Flyweight;
+//using DesignPatterns.Flyweight;
 
-FlyweightMain flyweightMain = new FlyweightMain();
-flyweightMain.Main();
+//FlyweightMain flyweightMain = new FlyweightMain();
+//flyweightMain.Main();
+#endregion
+#region Proxy pattern
+using DesignPatterns.Proxy;
+
+ProxyMain proxyMain = new ProxyMain();
+proxyMain.Main();
 
 #endregion
