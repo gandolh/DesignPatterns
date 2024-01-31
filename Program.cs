@@ -83,9 +83,17 @@
 //flyweightMain.Main();
 #endregion
 #region Proxy pattern
-using DesignPatterns.Proxy;
+//using DesignPatterns.Proxy;
 
-ProxyMain proxyMain = new ProxyMain();
-proxyMain.Main();
+//ProxyMain proxyMain = new ProxyMain();
+//proxyMain.Main();
+
+#endregion
+
+#region Chain of responsability
+using DesignPatterns.ChainOfResponsability;
+
+CorMain corMain = new CorMain();
+corMain.Main();
 
 #endregion
