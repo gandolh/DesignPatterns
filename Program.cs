@@ -98,9 +98,15 @@
 #endregion
 
 #region Command Pattern
-using DesignPatterns.CommandPattern;
+//using DesignPatterns.CommandPattern;
 
-CommandMain commandMain = new CommandMain();
-commandMain.Main();
+//CommandMain commandMain = new CommandMain();
+//commandMain.Main();
 
+#endregion
+#region Iterator pattern
+using DesignPatterns.IteratorPattern;
+
+IteratorMain iteratorMain = new IteratorMain();
+iteratorMain.Main();
 #endregion

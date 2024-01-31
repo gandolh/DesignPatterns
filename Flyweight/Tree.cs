@@ -22,7 +22,7 @@
         {
             return $"Tree Details:\n" +
                    $"Position (X, Y): ({X}, {Y})\n" +
-                   $"Tree type: {type}";
+                   $"Tree _type: {type}";
         }
     }
 }
