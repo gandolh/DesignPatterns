@@ -105,8 +105,15 @@
 
 #endregion
 #region Iterator pattern
-using DesignPatterns.IteratorPattern;
+//using DesignPatterns.IteratorPattern;
 
-IteratorMain iteratorMain = new IteratorMain();
-iteratorMain.Main();
+//IteratorMain iteratorMain = new IteratorMain();
+//iteratorMain.Main();
+#endregion
+
+#region Mediator pattern
+using DesignPatterns.Mediator;
+
+MediatorMain mediatorMain = new MediatorMain();
+mediatorMain.Main();
 #endregion
