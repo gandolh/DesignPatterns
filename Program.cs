@@ -91,9 +91,16 @@
 #endregion
 
 #region Chain of responsability
-using DesignPatterns.ChainOfResponsability;
+//using DesignPatterns.ChainOfResponsability;
 
-CorMain corMain = new CorMain();
-corMain.Main();
+//CorMain corMain = new CorMain();
+//corMain.Main();
+#endregion
+
+#region Command Pattern
+using DesignPatterns.CommandPattern;
+
+CommandMain commandMain = new CommandMain();
+commandMain.Main();
 
 #endregion
