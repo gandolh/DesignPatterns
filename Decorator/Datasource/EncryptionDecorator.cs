@@ -1,6 +1,4 @@
-﻿using System.Data.Common;
-
-namespace DesignPatterns.Decorator
+﻿namespace DesignPatterns.Decorator.Datasource
 {
     internal class EncryptionDecorator : DataSourceDecorator
     {

@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Decorator
+﻿namespace DesignPatterns.Decorator.Datasource
 {
     internal class CompressionDecorator : DataSourceDecorator
     {

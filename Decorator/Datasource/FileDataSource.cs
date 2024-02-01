@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Decorator
+﻿namespace DesignPatterns.Decorator.Datasource
 {
     /// <summary>
     /// Mockuping file storage data reading/writing
@@ -13,7 +13,7 @@
 
         public void WriteData(string data)
         {
-           _file = data;
+            _file = data;
         }
     }
 }

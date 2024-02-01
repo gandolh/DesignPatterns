@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Decorator
+﻿namespace DesignPatterns.Decorator.Notifiers
 {
     internal class FacebookDecorator : BaseDecorator
     {

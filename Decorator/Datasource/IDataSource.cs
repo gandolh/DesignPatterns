@@ -1,6 +1,6 @@
 ﻿using Microsoft.VisualBasic;
 
-namespace DesignPatterns.Decorator
+namespace DesignPatterns.Decorator.Datasource
 {
     internal interface IDataSource
     {

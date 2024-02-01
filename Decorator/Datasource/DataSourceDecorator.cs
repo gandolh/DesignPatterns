@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Decorator
+﻿namespace DesignPatterns.Decorator.Datasource
 {
     internal class DataSourceDecorator : IDataSource
     {
@@ -12,7 +12,7 @@
 
         public virtual string ReadData()
         {
-           return _dataSource.ReadData();
+            return _dataSource.ReadData();
         }
 
         public virtual void WriteData(string data)
