@@ -1,12 +1,12 @@
-﻿namespace DesignPatterns.Strategy
+﻿namespace DesignPatterns.Strategy.RouteStrategy
 {
-    internal class Navigator : IRouteStrategy
+    internal class Navigator
     {
         public IRouteStrategy RouteStrategy { private get; set; }
 
         public Navigator(IRouteStrategy routeStrategy)
         {
-            this.RouteStrategy = routeStrategy;
+            RouteStrategy = routeStrategy;
         }
 
         public void BuildRoute(int source, int dest)

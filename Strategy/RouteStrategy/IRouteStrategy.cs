@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Strategy
+﻿namespace DesignPatterns.Strategy.RouteStrategy
 {
     internal interface IRouteStrategy
     {
