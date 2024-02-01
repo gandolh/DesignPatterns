@@ -119,9 +119,17 @@
 #endregion
 
 #region Memento pattern
-using DesignPatterns.Memento;
+//using DesignPatterns.Memento;
 
-MementoMain mementoMain = new MementoMain();
-mementoMain.Main();
+//MementoMain mementoMain = new MementoMain();
+//mementoMain.Main();
+
+#endregion
+
+#region Observer pattern
+using DesignPatterns.Observer;
+
+ObserverMain observerMain = new ObserverMain();
+observerMain.Main();
 
 #endregion
