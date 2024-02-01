@@ -1,4 +1,7 @@
-﻿namespace DesignPatterns.Bridge
+﻿using DesignPatterns.Bridge.ShapeColor;
+using DesignPatterns.Bridge.TvRemote;
+
+namespace DesignPatterns.Bridge
 {
     internal class BridgeMain
     {

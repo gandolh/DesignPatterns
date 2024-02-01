@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Bridge
+﻿namespace DesignPatterns.Bridge.TvRemote
 {
     internal class AdvancedRemote : Remote
     {

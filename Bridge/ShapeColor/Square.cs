@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Bridge
+namespace DesignPatterns.Bridge.ShapeColor
 {
     internal class Square : Shape
     {

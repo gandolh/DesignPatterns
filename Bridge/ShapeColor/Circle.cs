@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Bridge
+﻿namespace DesignPatterns.Bridge.ShapeColor
 {
     internal class Circle : Shape
     {

@@ -4,11 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatterns.Bridge
+namespace DesignPatterns.Bridge.ShapeColor
 {
     internal class Color
     {
-        protected int r,g, b;
+        protected int r, g, b;
 
         public Color(int r, int g, int b)
         {
