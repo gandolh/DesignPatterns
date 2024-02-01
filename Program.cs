@@ -135,8 +135,15 @@
 #endregion
 
 #region State pattern
-using DesignPatterns.State;
+//using DesignPatterns.State;
 
-StateMain stateMain = new StateMain();
-stateMain.Main();
+//StateMain stateMain = new StateMain();
+//stateMain.Main();
+#endregion
+
+#region Strategy pattern
+using DesignPatterns.Strategy;
+
+StrategyMain strategyMain = new StrategyMain();
+strategyMain.Main();
 #endregion
