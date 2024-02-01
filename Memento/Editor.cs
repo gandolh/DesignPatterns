@@ -20,7 +20,7 @@
             return new Snapshot(this, Text, CursorX, CursorY, SelectionWidth);
         }
 
-        public class Snapshot : IMemento
+        private class Snapshot : IMemento
         {
             private readonly Editor _editor;
             private readonly string _text;
