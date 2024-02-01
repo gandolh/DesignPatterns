@@ -127,9 +127,16 @@
 #endregion
 
 #region Observer pattern
-using DesignPatterns.Observer;
+//using DesignPatterns.Observer;
 
-ObserverMain observerMain = new ObserverMain();
-observerMain.Main();
+//ObserverMain observerMain = new ObserverMain();
+//observerMain.Main();
 
+#endregion
+
+#region State pattern
+using DesignPatterns.State;
+
+StateMain stateMain = new StateMain();
+stateMain.Main();
 #endregion
