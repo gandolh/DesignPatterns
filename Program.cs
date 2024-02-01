@@ -142,8 +142,16 @@
 #endregion
 
 #region Strategy pattern
-using DesignPatterns.Strategy;
+//using DesignPatterns.Strategy;
 
-StrategyMain strategyMain = new StrategyMain();
-strategyMain.Main();
+//StrategyMain strategyMain = new StrategyMain();
+//strategyMain.Main();
+#endregion
+#region Template pattern
+
+using DesignPatterns.Template;
+
+TemplateMain templateMain = new TemplateMain();
+templateMain.Main();
+
 #endregion
