@@ -112,8 +112,16 @@
 #endregion
 
 #region Mediator pattern
-using DesignPatterns.Mediator;
+//using DesignPatterns.Mediator;
 
-MediatorMain mediatorMain = new MediatorMain();
-mediatorMain.Main();
+//MediatorMain mediatorMain = new MediatorMain();
+//mediatorMain.Main();
+#endregion
+
+#region Memento pattern
+using DesignPatterns.Memento;
+
+MementoMain mementoMain = new MementoMain();
+mementoMain.Main();
+
 #endregion
