@@ -2,13 +2,13 @@
 {
     internal abstract class Command
     {
-        private Stack<IMemento> _history;
         protected Editor _editor;
+        protected MementoHistory _history;
 
         public Command(Editor editor)
         {
             _editor = editor;
-            _history = new Stack<IMemento>();
+            _history = new MementoHistory();
         }
 
         protected void MakeBackup()
