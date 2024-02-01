@@ -25,7 +25,7 @@
 
         public override string ToString()
         {
-            return $"Shape Details:\n" +
+            return $"Shapes Details:\n" +
                    $"X: {X}\n" +
                    $"Y: {Y}\n" +
                    $"Color: {Color}";

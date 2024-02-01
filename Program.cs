@@ -148,10 +148,17 @@
 //strategyMain.Main();
 #endregion
 #region Template pattern
+//using DesignPatterns.Template;
 
-using DesignPatterns.Template;
+//TemplateMain templateMain = new TemplateMain();
+//templateMain.Main();
+#endregion
 
-TemplateMain templateMain = new TemplateMain();
-templateMain.Main();
+#region Visitor pattern
+
+using DesignPatterns.Visitor;
+
+VisitorMain visitorMain = new VisitorMain();
+visitorMain.Main();
 
 #endregion
